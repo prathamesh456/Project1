@@ -141,6 +141,8 @@ $(function() {
 <?php
         include('dbcon.php');
 
+        // pull wala comment
+
         if(isset($_POST['add']))
         {
         	
