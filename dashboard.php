@@ -23,22 +23,7 @@ $con=mysqli_connect("localhost","root","root","db1");
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script>
-		$(document).ready(function(){
-
-			
-			$(".student").click(function(){
-				$(".student_div").show();
-				$(".create_div").hide();
-			});
-
-			$(".create").click(function(){
-				$(".create_div").show();
-				$(".student_div").hide();
-			});
-
-
-		});
-
+		
 </script>
 
 	
