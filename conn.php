@@ -13,11 +13,11 @@ $db="rajesh";
 $conn=mysqli_connect($servername,$username,$password,$db);
 if($conn)
 {
-//echo "connected";
+echo "connected";
 }
 else
 {
-echo "not connected";
+echo "connected";
 }
 
 ?>
