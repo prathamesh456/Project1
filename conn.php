@@ -1,5 +1,4 @@
 <?php
-saseasta
 session_start();
 if(!array_key_exists('id', $_SESSION))
 {
@@ -13,11 +12,11 @@ $db="rajesh";
 $conn=mysqli_connect($servername,$username,$password,$db);
 if($conn)
 {
-echo "connected";
+//echo "connected";
 }
 else
 {
-echo "connected";
+echo "not connected";
 }
 
 ?>
