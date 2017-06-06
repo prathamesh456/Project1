@@ -1,4 +1,5 @@
 <?php
+saseasta
 session_start();
 if(!array_key_exists('id', $_SESSION))
 {
