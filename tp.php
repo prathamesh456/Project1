@@ -16,6 +16,7 @@ include('dbcon.php');
 <?php
 // define variables and set to empty values
 
+// timepass wala comment
 
 $nameErr = $emailErr = $genderErr = $websiteErr = $rnoErr = $dobErr = $addressErr = $contactErr = $s_stdErr = "";
 $name = $email = $dob = $comment = $website = $rno = $address = $contact = $s_std = "";
